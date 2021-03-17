@@ -1,0 +1,28 @@
+{
+  "name": "katex-render",
+  "version": "1.0.2",
+  "description": "A simple tool for server-side math rendering with KaTeX.",
+  "repository": "https://github.com/CMTV/katex-render",
+  "main": "dist/index.js",
+  "keywords": [
+    "katex",
+    "math",
+    "latex",
+    "tex",
+    "render"
+  ],
+  "author": "CMTV",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "katex": "^0.13.0"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.11.0",
+    "@types/node": "^14.14.35",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
